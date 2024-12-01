@@ -1,33 +1,31 @@
-[window]
-padding = { x = 6 }
+[window.padding]
+x = 6
 
 [font]
-normal = { family = "Fira Code Medium", style = "Regular" }
+normal = { family = "Fira Code Retina", style = "Regular" }
 size = 12.7
 
-# Mariana Theme for Alacritty
-[colors]
-
+# Theme for Alacritty
 [colors.primary]
 background = "#353c45"
 foreground = "#d8dee9"
 
 [colors.cursor]
-cursor = "#80a4c2"
+cursor = "#d8dee9"
 text = "#ffffff"
 
 [colors.selection]
-background = "#ffd866" # Transparency not supported; use solid background.
-text = "#ffffff"
+background = "#d8dee9"
+text = "#353c45"
 
 [colors.normal]
 black = "#000000"
 red = "#f92672"
 green = "#a6e22e"
 yellow = "#f4bf75"
-blue = "#66d9ef"
+blue = "#3d90e3"
 magenta = "#ae81ff"
-cyan = "#38ccdc"
+cyan = "#3d90e3"
 white = "#f8f8f2"
 
 [colors.bright]
